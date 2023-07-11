@@ -1,9 +1,7 @@
-@charset "ISO-8859-1";
-	#p1{
-		background-color: black; 
-		color: white;
-	}
-	.c1{
-		background-color: blue;
-		color: violet;
-	}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("imageFond.jpg") no-repeat fixed;
+
+  height: 800px;
+  background-size: cover;
+}
